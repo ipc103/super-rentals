@@ -10,6 +10,7 @@ export default Ember.Component.extend({
   mouseEnter(){
     this.toggleProperty('isWide');
   },
+
   mouseLeave(){
     this.toggleProperty('isWide');
   }
